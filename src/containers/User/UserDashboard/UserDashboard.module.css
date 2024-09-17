@@ -1,0 +1,175 @@
+.Dashboard{
+    /* display: flex; */
+    /* left: 20%; */
+    margin-top: 0;
+}
+
+.Side{
+    width: 20%;
+    position: fixed;
+    bottom: 10;
+    top: -30;
+    /* box-sizing: border-box; */
+    /* left: 0; */
+    height: 100%;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06);
+}
+
+.Content{
+    width: 70%;
+    margin-left: 25%;
+    position: relative;
+    /* height: 100%; */
+}
+.Top{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20%; */
+}
+.Button {
+    margin-left: 4px;
+}
+.Tops {
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06);
+    height: 10em;
+    /* margin-left: 4em; */
+}
+
+
+.TopDown{
+    background-image: linear-gradient(to bottom right, #0C2A49,  #056fb2);
+    margin-top: 8em;
+    color: white;
+    padding: 1em;
+    font-weight: bold;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.TopRight {
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06);
+    height: 10em;
+    height: 250px;
+    margin-left: 4em;
+}
+
+.TopDownSpan {
+    background:	#ec4908;
+    padding: .5em;
+    border-radius: 10px;
+    margin-left: 55%
+}
+
+.Middle {
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06);
+    height: 15em;
+    margin-left: 3em;
+    box-sizing: border-box;
+    padding-top: 1em;
+}
+
+.Middle1 {
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06);
+    height: 15em;
+    margin-left: .5em;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom right, #0C2A49,  #056fb2);
+    color: white;
+    padding-top: 1em;
+    
+}
+
+.Btn {
+    background-image: linear-gradient(to bottom right, #0C2A49,  #056fb2);
+    background-color: none;
+    border-color: none !important;
+    color: white !important;
+}
+
+.BreadCrumpLogo {
+    height: 3em;
+    width: 3em;
+}
+
+@media (max-width: 576px) {
+    .TopDown {
+        margin-top: 3em;
+    }
+
+   .TopRight{
+        margin-left: 0;
+        margin-top: 2em;
+    }
+
+    .Middle{
+        margin-left: 0;
+        margin-top: 2em;
+        height: 21em;
+    }
+
+    .Middle1{
+        margin-left: 0;
+        height: 20em;
+    }
+    .Content{
+        margin-left: 15%;
+        /* height: 100%; */
+    }
+
+    .BreadCrumpLogo {
+        height: 2em;
+        width: 2em;
+    }
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	/* td:nth-of-type(1):before { content: "First Name"; }
+	td:nth-of-type(2):before { content: "Last Name"; }
+	td:nth-of-type(3):before { content: "Job Title"; }
+	td:nth-of-type(4):before { content: "Favorite Color"; }
+	td:nth-of-type(5):before { content: "Wars of Trek?"; }
+	td:nth-of-type(6):before { content: "Secret Alias"; }
+	td:nth-of-type(7):before { content: "Date of Birth"; }
+	td:nth-of-type(8):before { content: "Dream Vacation City"; }
+	td:nth-of-type(9):before { content: "GPA"; }
+	td:nth-of-type(10):before { content: "Arbitrary Data"; } */
+}

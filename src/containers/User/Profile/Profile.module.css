@@ -1,0 +1,41 @@
+.Profile{
+    /* display: flex; */
+    left: 20%;
+    margin-top: 0;
+   ;
+}
+
+.Side{
+    width: 20%;
+    position: fixed;
+    bottom: 10;
+    top: -30;
+    /* box-sizing: border-box; */
+    /* left: 0; */
+    height: 100%;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06);
+}
+
+.Content{
+    width: 70%;
+    margin-left: 25% !important;
+    /* height: 100%; */
+}
+
+.ProfileInfo{
+    /* box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06); */
+    /* border: 1px solid #dcdcdc; */
+    padding: 1em;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06);
+    background: white;
+    border-radius: 10px;
+    
+
+
+}
+.innerCol{
+    padding-top: 1em;
+    padding-left: 2em;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}

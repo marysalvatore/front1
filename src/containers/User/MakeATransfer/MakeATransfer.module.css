@@ -1,0 +1,26 @@
+.MakeTransfer{
+    /* display: flex; */
+    left: 20%;
+    margin-top: 0;
+   
+}
+
+.Content{
+    width: 70%;
+    margin-left: 25%;
+    padding-top: 10%;
+    /* height: 100%; */
+}
+
+.NumberInput {
+    padding-left: 10px;
+    width: 100%;
+    border: 1px solid #dcdcdc;
+    height: 50px;
+    margin-top: 20px
+}
+
+.transferBtn{
+    background-image: linear-gradient(to bottom right, #0C2A49,  #056fb2);
+    color: "white";
+}

@@ -1,0 +1,163 @@
+.SiteFooter
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.SiteFooter hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.SiteFooter hr.small
+{
+  margin:20px 0
+}
+.SiteFooter h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.SiteFooter a
+{
+  color:#737373;
+}
+.SiteFooter a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.FooterLinks
+{
+  padding-left:0;
+  list-style:none
+}
+.FooterLinks li
+{
+  display:block
+}
+.FooterLinks a
+{
+  color:#737373
+}
+.FooterLinks a:active,.FooterLinks a:focus,.FooterLinks a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.FooterLinks.inline li
+{
+  display:inline-block
+}
+.SiteFooter .SocialIcons
+{
+  text-align:right
+}
+.SiteFooter .SocialIcons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .SiteFooter [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .SiteFooter
+  {
+    padding-bottom:0
+  }
+  .SiteFooter .copyright-text,.SiteFooter .SocialIcons
+  {
+    text-align:center
+  }
+}
+.SocialIcons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.SocialIcons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.SocialIcons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.SocialIcons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.SocialIcons a:active,.SocialIcons a:focus,.SocialIcons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.SocialIcons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.SocialIcons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.SocialIcons a.twitter:hover
+{
+  background-color:#00aced
+}
+.SocialIcons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.SocialIcons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .SocialIcons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}

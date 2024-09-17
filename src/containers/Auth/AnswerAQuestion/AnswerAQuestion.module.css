@@ -1,0 +1,47 @@
+.Details {
+    width: 600px;
+    height: 10%;
+    margin: 0;
+    box-shadow: 0 1px 3px 1px #dcdcdc;
+    padding: 30px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.Container {
+    /* width */
+    display: flex;
+    justify-content: center;
+}
+
+.Error {
+    border: 2px solid #FA8072 !important;
+    
+}
+
+.DetailsBtn{
+    border: 1px solid blue;
+    margin-top: 9px;
+   }
+   .Up{
+    color: red;
+    text-shadow: 2px 2px 3px grey;
+    font-weight: bold;
+}
+
+.DetailsHeader{
+    text-shadow: 0 1px 3px 1px #dcdcdc;
+    font-weight: bold
+}
+
+.NumberInput {
+    padding-left: .8em;
+    width: 100%;
+    border: 1px solid #dcdcdc;
+}
+
+@media (max-width: 499px) {
+    .Details {
+        width: 300px;
+    }
+}

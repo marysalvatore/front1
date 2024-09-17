@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap');
+
+.Container {
+    /* width */
+    display: flex;
+    justify-content: center;
+}
+.Register {
+    font-family: 'Exo 2', sans-serif;
+    width: 600px;
+    height: 10%;
+    margin: 0;
+    box-shadow: 0 1px 3px 1px #dcdcdc;
+    padding: 30px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.Reg {
+    text-shadow: 0 1px 3px 1px #dcdcdc;
+    font-weight: bold
+}
+.Error {
+    border: 2px solid #FA8072 !important;
+    
+}
+
+.chip  {
+    background: purple !important;
+}
+
+.Up{
+    color: red;
+    text-shadow: 2px 2px 3px grey;
+    font-weight: bold;
+}
+.RegisterBtn{
+ border: 1px solid blue;
+ margin-top: 9px;
+}
+
+@media (max-width: 499px) {
+    .Register {
+        width: 300px;
+    }
+}
+.MoveLeft{
+    margin-left: 9px;
+}

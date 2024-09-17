@@ -1,0 +1,99 @@
+.Toolbar {
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:  white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.ToolbarActive {
+     background:white;
+    height: 80px;
+    width: 100%;
+    color: black;
+    top: 0;
+    left: 0;
+    /* background-color: #dcdcdc; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+.topRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.topDiv{
+    font-size: 12px;
+    height: 100px;
+    padding: 5px;
+    min-width: 300px;
+    background-color: #dcdcdc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.topDiv .options{
+    margin: 10px 5px;
+}
+.downDiv{
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nav{
+    width: 50%;
+    display: block;
+    text-align: center;
+}
+.Nav .loginBtn {
+    width: 100%;
+    align-items: center;
+}
+.Img{
+    height: 15px;
+}
+
+.Toolbar.active {
+    
+}
+
+.btn {
+    color: white
+}
+
+.Toolbar nav {
+    height: 100%;
+    
+}
+
+/* .LogoStyle{
+    height: 90%;
+    width: 50%;
+} */
+
+
+
+@media (max-width: 576px) {
+    .DesktopOnly {
+        display: none
+    }
+
+   
+}

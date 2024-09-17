@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap');
+
+.Container {
+    /* width */
+    display: flex;
+    justify-content: center;
+}
+.loginContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 0 4px 10px 4px #dcdcdc;
+    margin-top: 90px;
+}
+.loginSideImage{
+    height: 500px;
+    width: 500px;
+    background-image: url('../../../assets/images/login/login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.loginSideImage:before{
+    height: 500px;
+    width: 500px;
+    background: #14477b;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.65;
+}
+.clickRegister{
+    display: block;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    padding:5px 20px;
+}
+.Login {
+    font-family: 'Exo 2', sans-serif;
+    width: 400px;
+    height: 500px;
+    margin: 0;
+    padding: 30px;
+}
+.LoginBtn{
+ background: #14477b !important;
+ margin-top: 9px;
+ width: 100%
+}
+
+@media (max-width: 499px) {
+    .Login {
+        width: 300px;
+    }
+}
+.MoveLeft{
+    margin-left: 9px;
+}

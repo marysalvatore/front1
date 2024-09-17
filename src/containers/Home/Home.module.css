@@ -1,0 +1,222 @@
+
+
+.imgSlide{
+    /* width: 100%; */
+    height:  700px;
+    /* object-fit: cover; */
+    
+  }
+
+.Side{
+    width: 20%;
+    position: fixed;
+    top: 10;
+    /* left: 0; */
+    height: 100%;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06);
+}
+
+/* secondDiv */
+
+.secondDiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5em;
+    height: 20em
+}
+
+
+.secondDiv .left {
+    padding: 30px;
+    min-width: 60%;
+}
+
+.secondDiv .right{
+    padding: 10px;
+    min-width: 40%;
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+.Content{
+    width: 70%;
+    margin-left: 25%;
+}
+.Top{
+    display: flex;
+    justify-content: space-between;
+}
+.Button {
+    margin-left: 4px;
+}
+.Help {
+    /* margin-top: -10em; */
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    /* border-bottom: 2px solid red; */
+}
+
+.gradientDiv{
+    height: 20em;
+    background-image: linear-gradient(to right, #0C2A49, #EE82EE);
+    margin-top: 2em;
+}
+
+.signUpBtnGradient{
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.signUpBtnGradient:hover {
+    background: #14477b !important;
+    border: unset !important;
+    font-weight: bold;
+}
+.loginBtnGradient{
+    background: #14477b !important;
+    font-weight: bold;
+    color: white !important;
+}
+.loginBtnGradient:hover{
+    background: unset !important;
+    border: 1px solid #14477b !important;
+    color: #14477b !important;
+}
+.Shadow{
+    box-shadow: 0 4px 6px 3px #dcdcdc;
+    margin-left: 3em;
+}
+/* .Border_Right{
+    border-right: 1px solid #dcdcdc;
+} */
+
+.MuiTypography-body1 {
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    text-align: left
+}
+
+.FirstDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 3em; */
+}
+
+.InnerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.Block{
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.Caption{
+  width: 100px;
+  height: 100px;
+  /* position: absolute; */
+  /* animation-name: myfirst;
+  animation-duration: 3s; */
+  top:150px;
+  left: 300 !important;
+  /* animation-iteration-count: infinite; */
+  height: 10em;
+  width: 15em;
+  /* box-shadow: 0 4px 6px 3px #dcdcdc; */
+  text-align: center;
+}
+.fifthDivContainer{
+    padding: 80px 0 80px;
+    background-image: url('../../assets/images/background.png');
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    height: 100%;
+    z-index: -1;
+}
+.fifthDivContainer::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.85;
+    background-color: #1b3052;
+}
+.fifthDivContainer h3{
+    color: white;
+}
+
+.btnStyle {
+    background-image: linear-gradient(to bottom right, #4d0067, #EE82EE);
+    font-weight: 'bold';
+    border-color: none !important;
+}
+
+
+@keyframes myfirst {
+  0%   { left:50px; top:350px;}
+  25%  {left:100px; top:350px;}
+  100%  {left:200px; top:350px;}
+  100%  {left:300px; top:350px;}
+  
+}
+
+@media (max-width: 575.98px) {
+    .DesktopOnly {
+        display: none
+    }
+    .Help {
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .Shadow{
+        margin-left: 0;
+    }
+
+   
+}
+.lastImage{
+    height: 40em;
+}
+
+@media (min-width: 767px) and (max-width: 1999px) {
+   .What {
+       width: 20em !important;
+       padding: 20px;
+       margin-left: 1.4em;
+       border: 1px solid #dcdcdc;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       transition: all 0.5s ease;
+       background: white;
+   }
+   .What:hover {
+    box-shadow: 0 4px 10px 4px #0C2A49;
+   }
+}
+

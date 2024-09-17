@@ -6,7 +6,7 @@ const instance = axios.create({
     baseURL:  'https://backend.anselbank.online/api/',
     headers:{
         'X-Requested-With': 'XMLHttpRequest',
-        'Access-Control-Allow-Origin': 'https://backend.anselbank.online'
+        'Access-Control-Allow-Origin': '*'
     }
 
 

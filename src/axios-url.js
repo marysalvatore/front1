@@ -5,7 +5,8 @@ import axios from 'axios' ;
 const instance = axios.create({
     baseURL:  'https://backend.anselbank.online/api/',
     headers:{
-        'X-Requested-With': 'XMLHttpRequest'
+        'X-Requested-With': 'XMLHttpRequest',
+        'Access-Control-Allow-Origin': '*'
     }
 
 

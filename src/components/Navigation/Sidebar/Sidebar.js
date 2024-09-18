@@ -37,7 +37,7 @@ class Sidebar extends React.Component{
                     </Link>
                   </li>
 
-                      
+
                {/* <li>
                   <Accordion style={{width: "cover", marginLeft: "-2.3em"}} >
                         <AccordionSummary
@@ -54,8 +54,8 @@ class Sidebar extends React.Component{
                         </AccordionDetails>
                      </Accordion>
                </li> */}
-  
-                 
+
+
 
                   <li >
                     <Link  onClick={this.props.logout}>
@@ -63,8 +63,8 @@ class Sidebar extends React.Component{
                        <span style={{color: 'black', marginLeft: '1em', marginTop: '3em'}}>Logout</span>
                     </Link>
                   </li>
-  
-                  
+
+
             </ul>
          </Aux>
       } else {
@@ -77,7 +77,7 @@ class Sidebar extends React.Component{
                     </Link>
                   </li>
 
-                      
+
                {/* <li>
                   <Accordion style={{width: "cover", marginLeft: "-2.3em"}} >
                         <AccordionSummary
@@ -94,28 +94,28 @@ class Sidebar extends React.Component{
                         </AccordionDetails>
                      </Accordion>
                </li> */}
-  
+
                   <li >
                     <Link  to="/">
                        <img src={banking} alt=""></img>
                        <span style={{color: 'black', marginLeft: '1em', marginTop: '3em'}}>Banking</span>
                     </Link>
                   </li>
-  
+
                   <li >
                     <Link  to="/">
                        <img src={inventory} alt=""></img>
                        <span style={{color: 'black', marginLeft: '1em', marginTop: '3em'}}>Inventory</span>
                     </Link>
                   </li>
-  
+
                   <li >
                     <Link className={this.props.location.pathname === '/user-transactions' ? classes.active : ''}  to="/user-transactions">
                        <img src={transactions} alt=""></img>
                        <span style={{color: 'black', marginLeft: '1em', marginTop: '3em'}}>Transactions</span>
                     </Link>
                   </li>
-  
+
                   <li >
                     <Link  className={this.props.location.pathname === '/profile' ? classes.active : ''}  to="/profile">
                        <img src={profile} alt=""></img>
@@ -129,24 +129,24 @@ class Sidebar extends React.Component{
                        <span style={{color: 'black', marginLeft: '1em', marginTop: '3em'}}>Logout</span>
                     </Link>
                   </li>
-  
-                  
+
+
             </ul>
          </Aux>
-       
+
       }
       return (
          <div className={classes.Sidebar}>
             <div style={{display: 'flex', justifyContent: 'center', }}>
-               <img src={this.props.role == 'admin' ? AdminImg : url} style={{height: '10em', marginTop: '.7em'}} alt="profile"></img>
+               <img src={this.props.role == 'admin' ? AdminImg : url} style={{height: '10em', marginTop: '.7em', marginTop: '3em'}} alt="profile"></img>
             </div>
-            
+
             {currentSideBar}
          </div>
-         
+
      )
    }
-   
+
 }
 
 const MuiTypography_body1 = {

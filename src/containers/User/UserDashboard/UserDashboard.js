@@ -191,7 +191,7 @@ setOffshore = (offshore) => {
                    <td>{trans.beneficiary_name}</td>
                    <td>{trans.beneficiary_bank_name}</td>
                    <td>{trans.beneficiary_account_number}</td>
-                   <td><span style={{color: 'red'}}>- {Dinero({amount: trans.amount, currency: 'USD'}).toFormat('$0,0.00')}</span></td>
+                   <td><span className={trans.beneficiary_bank_name === 'Ansel bank' ? classes.green : classes.red}>{trans.beneficiary_bank_name === 'Ansel bank' ? '+' : '-' } {Dinero({amount: trans.amount, currency: 'USD'}).toFormat('$0,0.00')}</span></td>
                    <td><small>{new Date(trans.createdAt).toDateString()}</small></td>
                    <td> <FontAwesomeIcon onClick={e => this.getTransaction(trans._id)} icon="eye" style={{color: 'blue'}} /> </td>
                </tr>

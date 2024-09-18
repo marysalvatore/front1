@@ -69,5 +69,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://backend.anselbank.online/api/"
+  "proxy": "https://backend.anselbank.online"
 }
